@@ -34,21 +34,3 @@ export const {
     useGetCryptoHistoryQuery,
     useGetExchangesQuery,
 } = cryptoApi
-
-// var options = {
-//     method: 'GET',
-//     url: 'https://coinranking1.p.rapidapi.com/coins',
-//     params: {
-//       referenceCurrencyUuid: 'yhjMzLPhuIDl',
-//       timePeriod: '24h',
-//       tiers: '1',
-//       orderBy: 'marketCap',
-//       orderDirection: 'desc',
-//       limit: '50',
-//       offset: '0'
-//     },
-//     headers: {
-//       'x-rapidapi-host': 'coinranking1.p.rapidapi.com',
-//       'x-rapidapi-key': '802ee5a3b2mshf94851c5699e858p191219jsn3dee320c2fa3'
-//     }
-//   };
