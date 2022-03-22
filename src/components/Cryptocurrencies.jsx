@@ -7,7 +7,7 @@ import Loader from './Loader'
 import { useGetCryptosQuery } from '../services/cryptoApi'
 
 const Cryptocurrencies = ({simplified}) => {
-  const count = simplified ? 10 : 100
+  const count = simplified ? 10 : 70
 
   const {data, isFetching} = useGetCryptosQuery(count)
   const [cryptos, setCryptos] = useState(data?.data?.coins)
